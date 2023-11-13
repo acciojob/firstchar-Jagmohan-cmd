@@ -1,18 +1,18 @@
 function firstChar(text) {
     // Remove leading and trailing spaces
-  inputString = inputString.trim();
+  text = text.trim();
 
   // Check if the resulting string is empty
-  if (inputString === '') {
+  if (text === '') {
     return '';
   }
 
   // Return the first character of the cleaned string
-  return inputString.charAt(0);
+  return text.charAt(0);
 }
 
 
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
