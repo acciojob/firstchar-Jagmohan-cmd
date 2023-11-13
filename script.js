@@ -1,7 +1,16 @@
 function firstChar(text) {
-  // your code here
-	return text[0];
+    // Remove leading and trailing spaces
+  inputString = inputString.trim();
+
+  // Check if the resulting string is empty
+  if (inputString === '') {
+    return '';
+  }
+
+  // Return the first character of the cleaned string
+  return inputString.charAt(0);
 }
+
 
 // Do not change the code below
 
